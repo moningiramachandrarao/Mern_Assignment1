@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSTask7
+    </title>
+    <style>
+        body{
+         background-color:#ae2f5b;
+        }
+        .c1{
+            margin-left:25%;
+            background-color: #76203f;
+            margin-right:30%;
+            margin-top:5%;
+            margin-bottom: 5%;
+            
+        }
+        input{
+         padding:8px;         
+        }
+        td{
+            font-size: 20px;
+            color: white;
+            height: 50px;
+        }
+        tr{
+        
+        text-indent:30px;
+        }
+         select{
+            width:200px;
+            height:40px;
+         }
+    </style>
+</head>
+<body>
+    <div class="c1">
+       <table>
+        <tr ><td width="200px">Name:</td><td><input type="text" name="name" size="40px" placeholder="your name "></td></tr>
+        <tr><td width="200px">Email:</td><td><input type="email" name="email" size="40px" placeholder="your email "></td></tr>
+        <tr><td width="200px">Password:</td><td><input type="password" name="pass" size="40px" ></td></tr>
+        <tr><td width="200px">Phone Number:</td><td><input type="text" name="phno" size="40px"></td></tr>
+        <tr><td width="200px">Gender:</td>   <td>Male: <input type="radio" name="gen" >
+                                          Female:  <input type="radio" name="gen" >
+                                          Others:  <input type="radio" name="gen" >
+        </td>    
+        </tr>
+        <tr><td width="200px">language</td><td>
+            <select name="lang" width="200px">
+                <option value="select language">select language</option>
+                <option value="hindi">Hindi</option>
+                <option value="telugu">Telugu</option>
+                <option value="eng">English</option>
+            </select>
+        </td>
+        </tr>
+        <tr><td width="200px">Zip Code:</td><td><input type="text" name="zip" size="40px" ></td></tr>
+        <tr><td width="200px">About:</td><td><textarea cols="40"rows="5" placeholder="Write about yourself...."></textarea></td></tr>
+       </table>
+       <button style="color:black ;font-size:25px; width:560px;" type="submit">Register</button>
+    </div>
+</body>
+</html>
